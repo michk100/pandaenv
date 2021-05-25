@@ -1,0 +1,296 @@
+2020-08-27T09:55:11.589Z [jfac ] [INFO ] [672e004f2e344ad1] [licationContextInitializer:162] [ocalhost-startStop-2] - Access (jfac) service initialization started. Version: 5.7.4 Revision: 50704900 PID: 4468 Home: /opt/jfrog/artifactory
+2020-08-27T09:55:11.630Z [jfac ] [INFO ] [672e004f2e344ad1] [o.j.a.AccessApplication:50    ] [ocalhost-startStop-2] - Starting AccessApplication v5.7.4 on d721c96ad16e with PID 4468 (/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-5.7.4.jar started by artifactory in /var/opt/jfrog/artifactory)
+2020-08-27T09:55:11.631Z [jfac ] [INFO ] [672e004f2e344ad1] [o.j.a.AccessApplication:651   ] [ocalhost-startStop-2] - The following profiles are active: production
+2020-08-27T09:55:13.741Z [jfac ] [WARN ] [672e004f2e344ad1] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2020-08-27T09:55:13.762Z [jfac ] [INFO ] [672e004f2e344ad1] [s.d.u.AccessJdbcHelperImpl:140] [ocalhost-startStop-2] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2020-08-27T09:55:13.763Z [jfac ] [INFO ] [672e004f2e344ad1] [s.d.u.AccessJdbcHelperImpl:143] [ocalhost-startStop-2] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
+2020-08-27T09:55:13.778Z [jfac ] [INFO ] [672e004f2e344ad1] [s.d.u.AccessJdbcHelperImpl:152] [ocalhost-startStop-2] - ***Creating database schema***
+2020-08-27T09:55:14.729Z [jfac ] [INFO ] [672e004f2e344ad1] [s.d.u.AccessJdbcHelperImpl:168] [ocalhost-startStop-2] - Setting new schema baseline to latest version: 4.12
+2020-08-27T09:55:15.027Z [jfac ] [INFO ] [672e004f2e344ad1] [alConfigurationServiceBase:179] [ocalhost-startStop-2] - Configuration data wasn't found in db. Loading defaults
+2020-08-27T09:55:15.279Z [jfac ] [INFO ] [672e004f2e344ad1] [.h.AccessNodeIdProviderImpl:70] [ocalhost-startStop-2] - Service id initialized: jfac@01egqnfh5wvnv30n1n33am1g5x
+2020-08-27T09:55:15.383Z [jfac ] [INFO ] [672e004f2e344ad1] [a.k.m.MasterKeyBootstrapper:70] [ocalhost-startStop-2] - No master.key supplied. Generating master.key
+2020-08-27T09:55:15.438Z [jfac ] [INFO ] [672e004f2e344ad1] [.k.m.MasterKeyBootstrapper:146] [ocalhost-startStop-2] - Saving master.key to /opt/jfrog/artifactory/var/etc/security/master.key
+2020-08-27T09:55:15.814Z [jfac ] [INFO ] [672e004f2e344ad1] [j.a.s.s.t.TokenServiceImpl:116] [ocalhost-startStop-2] - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2020-08-27T09:55:16.448Z [jfac ] [INFO ] [672e004f2e344ad1] [b.AccessServerBootstrapImpl:80] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2020-08-27T09:55:16.449Z [jfac ] [INFO ] [672e004f2e344ad1] [CertificateFileHandlerBase:121] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Initializing root certificate.
+2020-08-27T09:55:16.451Z [jfac ] [INFO ] [672e004f2e344ad1] [CertificateFileHandlerBase:286] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Generating root private key and certificate.
+2020-08-27T09:55:17.099Z [jfac ] [INFO ] [672e004f2e344ad1] [CertificateFileHandlerBase:342] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2020-08-27T09:55:17.100Z [jfac ] [INFO ] [672e004f2e344ad1] [CertificateFileHandlerBase:138] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Finished initializing root certificate. Certificate source: GENERATED
+2020-08-27T09:55:17.101Z [jfac ] [INFO ] [672e004f2e344ad1] [CertificateFileHandlerBase:121] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Initializing ca certificate.
+2020-08-27T09:55:17.102Z [jfac ] [INFO ] [672e004f2e344ad1] [CertificateFileHandlerBase:286] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Generating ca private key and certificate.
+2020-08-27T09:55:17.247Z [jfac ] [INFO ] [672e004f2e344ad1] [CertificateFileHandlerBase:342] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2020-08-27T09:55:17.247Z [jfac ] [INFO ] [672e004f2e344ad1] [CertificateFileHandlerBase:138] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Finished initializing ca certificate. Certificate source: GENERATED
+2020-08-27T09:55:17.323Z [jfac ] [WARN ] [672e004f2e344ad1] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2020-08-27T09:55:17.492Z [jfac ] [INFO ] [672e004f2e344ad1] [b.AccessServerBootstrapImpl:88] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2020-08-27T09:55:17.965Z [jfac ] [INFO ] [672e004f2e344ad1] [o.j.a.s.s.JoinKeyAccess:167   ] [ocalhost-startStop-2] - Cluster join: Join key loaded successfully (from: generated)
+2020-08-27T09:55:18.008Z [jfac ] [INFO ] [672e004f2e344ad1] [a.s.b.AccessServerRegistrar:62] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Starting JFrog Access registrar...
+2020-08-27T09:55:18.026Z [jfac ] [INFO ] [8fcac2c11f53d6d5] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling heartbeat task to run every 5 seconds
+2020-08-27T09:55:18.028Z [jfac ] [INFO ] [8fcac2c11f53d6d5] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling federationCleanupService task to run every 1209600 seconds
+2020-08-27T09:55:18.032Z [jfac ] [INFO ] [8fcac2c11f53d6d5] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling staleTokenCleanup task to run every 3600 seconds
+2020-08-27T09:55:18.043Z [jfac ] [INFO ] [5a6b9cf7a4374bc5] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling loadCertificates task to run every 30 seconds
+2020-08-27T09:55:18.159Z [jfac ] [INFO ] [5a6b9cf7a4374bc5] [o.j.a.s.r.s.GrpcServerImpl:65 ] [ocalhost-startStop-2] - Starting gRPC Server on port 8045
+2020-08-27T09:55:18.302Z [jfac ] [INFO ] [5a6b9cf7a4374bc5] [o.j.a.s.r.s.GrpcServerImpl:84 ] [ocalhost-startStop-2] - gRPC Server started, listening on 8045
+2020-08-27T09:55:19.705Z [jfac ] [INFO ] [5a6b9cf7a4374bc5] [o.j.a.AccessApplication:59    ] [ocalhost-startStop-2] - Started AccessApplication in 9.371 seconds (JVM running for 12.033)
+2020-08-27T09:55:21.226Z [jfac ] [INFO ] [50d4d8373b3b543d] [a.c.RefreshableScheduledJob:53] [27.0.0.1-8040-exec-1] - Scheduling federationCleanupService task to run every 1209600 seconds
+2020-08-27T09:55:21.228Z [jfac ] [INFO ] [5c22b4c1a35b9217] [.f.FederationCleanupService:59] [jf-access-task1     ] - Running clean up of outdated Federation events
+2020-08-27T09:55:21.349Z [jfac ] [INFO ] [50d4d8373b3b543d] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-1] - Cluster join: Successfully joined jfrou@01egqnfmmavh9jhqfdex9sdpmm with node id d721c96ad16e
+2020-08-27T09:55:24.150Z [jfac ] [INFO ] [672e004f2e344ad1] [.AccessWithRouterRegistrar:111] [pool-11-thread-2    ] - Access Server successfully registered on Router on URL: http://localhost:8046
+2020-08-27T09:55:25.604Z [jfac ] [INFO ] [16cbb6368688b9be] [a.c.RefreshableScheduledJob:53] [27.0.0.1-8040-exec-7] - Scheduling federationCleanupService task to run every 1209600 seconds
+2020-08-27T09:55:25.605Z [jfac ] [INFO ] [1902fd9dc03c0d98] [.f.FederationCleanupService:59] [jf-access-task1     ] - Running clean up of outdated Federation events
+2020-08-27T09:55:25.631Z [jfac ] [INFO ] [16cbb6368688b9be] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-7] - Cluster join: Successfully joined jfmd@01egqnfnbcnw7kzmxycx813qb6 with node id d721c96ad16e
+2020-08-27T09:55:25.656Z [jfac ] [INFO ] [70f55d5651dfadd1] [a.c.RefreshableScheduledJob:53] [27.0.0.1-8040-exec-8] - Scheduling federationCleanupService task to run every 1209600 seconds
+2020-08-27T09:55:25.657Z [jfac ] [INFO ] [8ca6a44e45e84805] [.f.FederationCleanupService:59] [jf-access-task1     ] - Running clean up of outdated Federation events
+2020-08-27T09:55:25.678Z [jfac ] [INFO ] [70f55d5651dfadd1] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-8] - Cluster join: Successfully joined jfrt@01egqnftzj6k361sybwh4017ts with node id d721c96ad16e
+2020-08-27T09:55:25.792Z [jfac ] [INFO ] [672e004f2e344ad1] [.s.b.AccessServerRegistrar:117] [pool-11-thread-2    ] - [ACCESS BOOTSTRAP] Updating server 'd721c96ad16e' private key finger print to: 80ec4fe5424ad34cc923c9abcaeea364cee4adddf9367810e328b82f5606f932 ca private key finger print to: 0dcaeeff0a8c07fe58a7d24d168e70d64d17240ba74d2b694badfa0c6a3cd865
+2020-08-27T09:55:25.802Z [jfac ] [INFO ] [672e004f2e344ad1] [a.s.b.AccessServerRegistrar:73] [pool-11-thread-2    ] - [ACCESS BOOTSTRAP] JFrog Access registrar finished.
+2020-08-27T09:55:26.596Z [jfac ] [INFO ] [50160903ea295405] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-4] - Exporting NodeIdServiceId...
+2020-08-27T09:55:26.600Z [jfac ] [INFO ] [50160903ea295405] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-4] - Exporting users...
+2020-08-27T09:55:26.614Z [jfac ] [INFO ] [50160903ea295405] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-4] - Exporting tokens...
+2020-08-27T09:55:26.617Z [jfac ] [INFO ] [50160903ea295405] [.d.TokenStorageServiceImpl:193] [27.0.0.1-8040-exec-4] - Filtered out 8 system tokens from export
+2020-08-27T09:55:26.618Z [jfac ] [INFO ] [50160903ea295405] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-4] - Exporting federation_events...
+2020-08-27T09:55:26.620Z [jfac ] [INFO ] [50160903ea295405] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-4] - Exporting federation_servers...
+2020-08-27T09:55:26.634Z [jfac ] [INFO ] [50160903ea295405] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-4] - Exporting permissions...
+2020-08-27T09:55:26.637Z [jfac ] [INFO ] [50160903ea295405] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-4] - Exporting groups...
+2020-08-27T09:55:26.638Z [jfac ] [INFO ] [50160903ea295405] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-4] - Exporting platform_configurations...
+2020-08-27T09:55:26.642Z [jfac ] [INFO ] [50160903ea295405] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-4] - Exporting encryption...
+2020-08-27T09:55:26.644Z [jfac ] [INFO ] [50160903ea295405] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-4] - Exporting config...
+2020-08-27T09:55:31.122Z [jfac ] [INFO ] [61ebcff50dde062 ] [a.c.RefreshableScheduledJob:53] [27.0.0.1-8040-exec-1] - Scheduling federationCleanupService task to run every 1209600 seconds
+2020-08-27T09:55:31.128Z [jfac ] [INFO ] [5331345990c7d060] [.f.FederationCleanupService:59] [jf-access-task1     ] - Running clean up of outdated Federation events
+2020-08-27T09:55:31.155Z [jfac ] [INFO ] [61ebcff50dde062 ] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-1] - Cluster join: Successfully joined jffe@000 with node id d721c96ad16e
+2020-08-27T09:55:41.476Z [jfac ] [INFO ] [                ] [alConfigurationServiceBase:182] [c-default-executor-0] - Loading configuration from db finished successfully
+2020-08-27T09:55:41.488Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:187] [c-default-executor-0] - Loading root certificate from database.
+2020-08-27T09:55:41.586Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:342] [c-default-executor-0] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2020-08-27T09:55:41.586Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:196] [c-default-executor-0] - Finished loading root certificate from database.
+2020-08-27T09:55:41.586Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:187] [c-default-executor-0] - Loading ca certificate from database.
+2020-08-27T09:55:41.626Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:342] [c-default-executor-0] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2020-08-27T09:55:41.626Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:196] [c-default-executor-0] - Finished loading ca certificate from database.
+2021-05-24T15:35:07.505Z [jfac ] [WARN ] [                ] [ackson2ObjectMapperBuilder:817] [background-preinit  ] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-05-24T15:35:07.504Z [jfac ] [INFO ] [15cbd2376e970c52] [licationContextInitializer:162] [ocalhost-startStop-1] - Access (jfac) service initialization started. Version: 5.7.4 Revision: 50704900 PID: 4143 Home: /opt/jfrog/artifactory
+2021-05-24T15:35:07.624Z [jfac ] [INFO ] [15cbd2376e970c52] [o.j.a.AccessApplication:50    ] [ocalhost-startStop-1] - Starting AccessApplication v5.7.4 on 7df499fcb9fe with PID 4143 (/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-5.7.4.jar started by artifactory in /var/opt/jfrog/artifactory)
+2021-05-24T15:35:07.625Z [jfac ] [INFO ] [15cbd2376e970c52] [o.j.a.AccessApplication:651   ] [ocalhost-startStop-1] - The following profiles are active: production
+2021-05-24T15:35:15.668Z [jfac ] [WARN ] [15cbd2376e970c52] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-1] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-05-24T15:35:15.753Z [jfac ] [INFO ] [15cbd2376e970c52] [s.d.u.AccessJdbcHelperImpl:140] [ocalhost-startStop-1] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2021-05-24T15:35:15.757Z [jfac ] [INFO ] [15cbd2376e970c52] [s.d.u.AccessJdbcHelperImpl:143] [ocalhost-startStop-1] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
+2021-05-24T15:35:18.331Z [jfac ] [INFO ] [15cbd2376e970c52] [alConfigurationServiceBase:182] [ocalhost-startStop-1] - Loading configuration from db finished successfully
+2021-05-24T15:35:19.517Z [jfac ] [INFO ] [15cbd2376e970c52] [.h.AccessNodeIdProviderImpl:70] [ocalhost-startStop-1] - Service id initialized: jfac@01egqnfh5wvnv30n1n33am1g5x
+2021-05-24T15:35:20.838Z [jfac ] [INFO ] [15cbd2376e970c52] [j.a.s.s.t.TokenServiceImpl:116] [ocalhost-startStop-1] - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2021-05-24T15:35:22.705Z [jfac ] [INFO ] [15cbd2376e970c52] [b.AccessServerBootstrapImpl:80] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2021-05-24T15:35:22.706Z [jfac ] [INFO ] [15cbd2376e970c52] [CertificateFileHandlerBase:121] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Initializing root certificate.
+2021-05-24T15:35:23.485Z [jfac ] [INFO ] [15cbd2376e970c52] [CertificateFileHandlerBase:342] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2021-05-24T15:35:23.487Z [jfac ] [INFO ] [15cbd2376e970c52] [CertificateFileHandlerBase:138] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Finished initializing root certificate. Certificate source: DATABASE
+2021-05-24T15:35:23.491Z [jfac ] [INFO ] [15cbd2376e970c52] [CertificateFileHandlerBase:121] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Initializing ca certificate.
+2021-05-24T15:35:23.651Z [jfac ] [INFO ] [15cbd2376e970c52] [CertificateFileHandlerBase:342] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2021-05-24T15:35:23.652Z [jfac ] [INFO ] [15cbd2376e970c52] [CertificateFileHandlerBase:138] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Finished initializing ca certificate. Certificate source: DATABASE
+2021-05-24T15:35:23.905Z [jfac ] [INFO ] [15cbd2376e970c52] [b.AccessServerBootstrapImpl:88] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2021-05-24T15:35:25.613Z [jfac ] [INFO ] [15cbd2376e970c52] [o.j.a.s.s.JoinKeyAccess:167   ] [ocalhost-startStop-1] - Cluster join: Join key loaded successfully (from: /opt/jfrog/artifactory/var/etc/security/join.key)
+2021-05-24T15:35:25.872Z [jfac ] [INFO ] [15cbd2376e970c52] [a.s.b.AccessServerRegistrar:62] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Starting JFrog Access registrar...
+2021-05-24T15:35:25.984Z [jfac ] [INFO ] [f1f027647f50bd94] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling heartbeat task to run every 5 seconds
+2021-05-24T15:35:26.007Z [jfac ] [INFO ] [f1f027647f50bd94] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling federationCleanupService task to run every 1209600 seconds
+2021-05-24T15:35:26.075Z [jfac ] [INFO ] [f1f027647f50bd94] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling staleTokenCleanup task to run every 3600 seconds
+2021-05-24T15:35:26.115Z [jfac ] [INFO ] [3a594d249889ba9f] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-1] - Scheduling loadCertificates task to run every 30 seconds
+2021-05-24T15:35:26.245Z [jfac ] [INFO ] [3a594d249889ba9f] [o.j.a.s.r.s.GrpcServerImpl:65 ] [ocalhost-startStop-1] - Starting gRPC Server on port 8045
+2021-05-24T15:35:26.856Z [jfac ] [INFO ] [3a594d249889ba9f] [o.j.a.s.r.s.GrpcServerImpl:84 ] [ocalhost-startStop-1] - gRPC Server started, listening on 8045
+2021-05-24T15:35:30.534Z [jfac ] [INFO ] [3a594d249889ba9f] [o.j.a.AccessApplication:59    ] [ocalhost-startStop-1] - Started AccessApplication in 25.182 seconds (JVM running for 27.531)
+2021-05-24T15:35:34.028Z [jfac ] [WARN ] [33d0895a5c195c6d] [c.z.h.u.DriverDataSource:70   ] [27.0.0.1-8040-exec-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-05-24T15:35:34.440Z [jfac ] [INFO ] [33d0895a5c195c6d] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-2] - Cluster join: Successfully joined jfrou@01egqnfmmavh9jhqfdex9sdpmm with node id 7df499fcb9fe
+2021-05-24T15:35:35.858Z [jfac ] [WARN ] [15cbd2376e970c52] [o.j.c.ExecutionUtils:142      ] [pool-24-thread-2    ] - Retry 20 Elapsed 9.96 secs failed: Registration with router on URL http://localhost:8046 failed with error: UNAVAILABLE: io exception. Trying again
+2021-05-24T15:35:36.501Z [jfac ] [INFO ] [15cbd2376e970c52] [.AccessWithRouterRegistrar:111] [pool-24-thread-1    ] - Access Server successfully registered on Router on URL: http://localhost:8046
+2021-05-24T15:35:37.541Z [jfac ] [INFO ] [15cbd2376e970c52] [.s.b.AccessServerRegistrar:117] [pool-24-thread-1    ] - [ACCESS BOOTSTRAP] Updating server '7df499fcb9fe' private key finger print to: 80ec4fe5424ad34cc923c9abcaeea364cee4adddf9367810e328b82f5606f932 ca private key finger print to: 0dcaeeff0a8c07fe58a7d24d168e70d64d17240ba74d2b694badfa0c6a3cd865
+2021-05-24T15:35:37.579Z [jfac ] [INFO ] [15cbd2376e970c52] [a.s.b.AccessServerRegistrar:73] [pool-24-thread-1    ] - [ACCESS BOOTSTRAP] JFrog Access registrar finished.
+2021-05-24T15:35:37.790Z [jfac ] [INFO ] [542a91ea7813d89 ] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-6] - Cluster join: Successfully joined jfrt@01egqnftzj6k361sybwh4017ts with node id 7df499fcb9fe
+2021-05-24T15:35:37.939Z [jfac ] [INFO ] [465c67d9ff99c876] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-7] - Cluster join: Successfully joined jfmd@01egqnfnbcnw7kzmxycx813qb6 with node id 7df499fcb9fe
+2021-05-24T15:35:50.354Z [jfac ] [INFO ] [7d34c23acd139424] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-9] - Cluster join: Successfully joined jffe@000 with node id 7df499fcb9fe
+2021-05-24T15:35:55.170Z [jfac ] [INFO ] [                ] [alConfigurationServiceBase:182] [c-default-executor-0] - Loading configuration from db finished successfully
+2021-05-24T15:35:55.177Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:187] [c-default-executor-0] - Loading root certificate from database.
+2021-05-24T15:35:55.248Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:342] [c-default-executor-0] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2021-05-24T15:35:55.248Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:196] [c-default-executor-0] - Finished loading root certificate from database.
+2021-05-24T15:35:55.249Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:187] [c-default-executor-0] - Loading ca certificate from database.
+2021-05-24T15:35:55.320Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:342] [c-default-executor-0] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2021-05-24T15:35:55.321Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:196] [c-default-executor-0] - Finished loading ca certificate from database.
+2021-05-24T16:00:00.038Z [jfac ] [INFO ] [476a42a0d9b4ad50] [j.a.s.s.t.TokenServiceImpl:153] [jf-access-task1     ] - Revoked 10 expired tokens.
+2021-05-24T16:35:26.078Z [jfac ] [INFO ] [a31221ecdf61598f] [.s.s.r.StaleTokenCleanupJob:62] [jf-access-task1     ] - Starting Access job to remove stale nodes and join-admin-tokens on server: 7df499fcb9fe
+2021-05-24T16:35:26.135Z [jfac ] [INFO ] [a31221ecdf61598f] [.s.s.r.StaleTokenCleanupJob:73] [jf-access-task1     ] - Removed 4 Stale Nodes and 3 Join-Admin-Tokens from before: 2021-05-17T16:35:26 
+2021-05-24T17:35:26.145Z [jfac ] [INFO ] [813b870a798ecb85] [.s.s.r.StaleTokenCleanupJob:62] [jf-access-task1     ] - Starting Access job to remove stale nodes and join-admin-tokens on server: 7df499fcb9fe
+2021-05-24T17:35:26.146Z [jfac ] [INFO ] [813b870a798ecb85] [.s.s.r.StaleTokenCleanupJob:73] [jf-access-task1     ] - Removed 0 Stale Nodes and 0 Join-Admin-Tokens from before: 2021-05-17T17:35:26 
+2021-05-24T18:35:26.156Z [jfac ] [INFO ] [59117b117e3d1eb5] [.s.s.r.StaleTokenCleanupJob:62] [jf-access-task1     ] - Starting Access job to remove stale nodes and join-admin-tokens on server: 7df499fcb9fe
+2021-05-24T18:35:26.158Z [jfac ] [INFO ] [59117b117e3d1eb5] [.s.s.r.StaleTokenCleanupJob:73] [jf-access-task1     ] - Removed 0 Stale Nodes and 0 Join-Admin-Tokens from before: 2021-05-17T18:35:26 
+2021-05-25T19:35:07.686Z [jfac ] [INFO ] [954a20f302a61c8 ] [licationContextInitializer:162] [ocalhost-startStop-1] - Access (jfac) service initialization started. Version: 7.19.4 Revision: 71904900 PID: 3506 Home: /opt/jfrog/artifactory
+2021-05-25T19:35:07.743Z [jfac ] [INFO ] [954a20f302a61c8 ] [o.j.a.AccessApplication:50    ] [ocalhost-startStop-1] - Starting AccessApplication v7.19.4 on bb392ef27062 with PID 3506 (/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-7.19.4.jar started by artifactory in /var/opt/jfrog/artifactory)
+2021-05-25T19:35:07.743Z [jfac ] [INFO ] [954a20f302a61c8 ] [o.j.a.AccessApplication:652   ] [ocalhost-startStop-1] - The following profiles are active: production
+2021-05-25T19:35:07.930Z [jfac ] [WARN ] [                ] [ackson2ObjectMapperBuilder:836] [background-preinit  ] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-05-25T19:35:11.462Z [jfac ] [WARN ] [954a20f302a61c8 ] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-1] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-05-25T19:35:14.070Z [jfac ] [INFO ] [954a20f302a61c8 ] [s.d.u.AccessJdbcHelperImpl:140] [ocalhost-startStop-1] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2021-05-25T19:35:14.842Z [jfac ] [INFO ] [954a20f302a61c8 ] [ocableExpiryOldDefaultValue:58] [ocalhost-startStop-1] - Migrating 'minimum-revocable-expiry' value in the DB to old default (-1) or a user custom value
+2021-05-25T19:35:14.936Z [jfac ] [INFO ] [954a20f302a61c8 ] [ocableExpiryOldDefaultValue:94] [ocalhost-startStop-1] - Access 'minimum-revocable-expiry' config value was changed to the value (-1).
+2021-05-25T19:35:15.009Z [jfac ] [INFO ] [954a20f302a61c8 ] [ocableExpiryOldDefaultValue:68] [ocalhost-startStop-1] - Access config key 'minimum-revocable-expiry' was migrated in the DB.
+2021-05-25T19:35:15.041Z [jfac ] [INFO ] [954a20f302a61c8 ] [tConfigurationDefaultValues:41] [ocalhost-startStop-1] - Set default values to `default` project.
+2021-05-25T19:35:15.207Z [jfac ] [INFO ] [954a20f302a61c8 ] [ctV4_15__ProjectRolesAction:90] [ocalhost-startStop-1] - Convert role actions
+2021-05-25T19:35:15.292Z [jfac ] [WARN ] [954a20f302a61c8 ] [o.f.c.i.d.JdbcTemplate:274    ] [ocalhost-startStop-1] - DB: No row was found for FETCH, UPDATE or DELETE; or the result of a query is an empty table. (SQL State: 02000 - Error Code: 10000)
+2021-05-25T19:35:15.325Z [jfac ] [INFO ] [954a20f302a61c8 ] [17__ProjectUsersToLowerCase:47] [ocalhost-startStop-1] - Convert project users to lower case.
+2021-05-25T19:35:15.356Z [jfac ] [INFO ] [954a20f302a61c8 ] [_ProjectRolesAdvancedAction:55] [ocalhost-startStop-1] - Convert role actions
+2021-05-25T19:35:15.359Z [jfac ] [INFO ] [954a20f302a61c8 ] [.j.a.s.d.m.ProjectsMigrator:62] [ocalhost-startStop-1] - Convert role actions
+2021-05-25T19:35:15.384Z [jfac ] [INFO ] [954a20f302a61c8 ] [__ProjectResourceDefaultEnv:47] [ocalhost-startStop-1] - Convert role actions
+2021-05-25T19:35:15.404Z [jfac ] [INFO ] [954a20f302a61c8 ] [_20__DefaultRoleEnvironment:45] [ocalhost-startStop-1] - Convert role actions
+2021-05-25T19:35:15.417Z [jfac ] [INFO ] [954a20f302a61c8 ] [stractV4_21__PasswordPolicy:43] [ocalhost-startStop-1] - Access config Password policy migration started.
+2021-05-25T19:35:15.592Z [jfac ] [INFO ] [954a20f302a61c8 ] [stractV4_21__PasswordPolicy:64] [ocalhost-startStop-1] - Access config Password policy migration completed.
+2021-05-25T19:35:15.604Z [jfac ] [INFO ] [954a20f302a61c8 ] [ProjectRolesPipelinesAction:27] [ocalhost-startStop-1] - Convert role actions
+2021-05-25T19:35:15.605Z [jfac ] [INFO ] [954a20f302a61c8 ] [.j.a.s.d.m.ProjectsMigrator:62] [ocalhost-startStop-1] - Convert role actions
+2021-05-25T19:35:15.620Z [jfac ] [INFO ] [954a20f302a61c8 ] [ctV4_24__ProjectRolesPerEnv:18] [ocalhost-startStop-1] - Convert role actions
+2021-05-25T19:35:15.621Z [jfac ] [INFO ] [954a20f302a61c8 ] [.j.a.s.d.m.ProjectsMigrator:62] [ocalhost-startStop-1] - Convert role actions
+2021-05-25T19:35:15.638Z [jfac ] [INFO ] [954a20f302a61c8 ] [ctV4_25__AddGlobalRolesMask:42] [ocalhost-startStop-1] - Converting roles add mask with default
+2021-05-25T19:35:15.640Z [jfac ] [INFO ] [954a20f302a61c8 ] [ctV4_25__AddGlobalRolesMask:51] [ocalhost-startStop-1] - Config roles.v2.global.configuration wasn't found on DB, skipping converter
+2021-05-25T19:35:15.650Z [jfac ] [INFO ] [954a20f302a61c8 ] [6__CovertProjectAdminToRole:48] [ocalhost-startStop-1] - Converts project admin privileges to action.
+2021-05-25T19:35:15.672Z [jfac ] [INFO ] [954a20f302a61c8 ] [__ProjectReleaseManagerRole:16] [ocalhost-startStop-1] - Convert releaser role
+2021-05-25T19:35:15.675Z [jfac ] [INFO ] [954a20f302a61c8 ] [.j.a.s.d.m.ProjectsMigrator:62] [ocalhost-startStop-1] - Convert role actions
+2021-05-25T19:35:15.696Z [jfac ] [INFO ] [954a20f302a61c8 ] [rojectStorageQuotaSoftLimit:49] [ocalhost-startStop-1] - Convert project storage quota.
+2021-05-25T19:35:15.748Z [jfac ] [INFO ] [954a20f302a61c8 ] [13_0_1__ProjectResourcesMap:54] [ocalhost-startStop-1] - Convert project storage quota.
+2021-05-25T19:35:15.773Z [jfac ] [INFO ] [954a20f302a61c8 ] [jectKeyInsteadOfProjectName:51] [ocalhost-startStop-1] - Convert project name to project key
+2021-05-25T19:35:15.805Z [jfac ] [INFO ] [954a20f302a61c8 ] [jectAdminCanDoDefaultValues:57] [ocalhost-startStop-1] - Add project admin can do values
+2021-05-25T19:35:16.008Z [jfac ] [INFO ] [954a20f302a61c8 ] [alConfigurationServiceBase:182] [ocalhost-startStop-1] - Loading configuration from db finished successfully
+2021-05-25T19:35:16.051Z [jfac ] [INFO ] [954a20f302a61c8 ] [j.a.m.ConfigMigrationRunner:74] [ocalhost-startStop-1] - Current version of Access Yaml Configurations is 1, latest version is 2. Applying migrations.
+2021-05-25T19:35:16.052Z [jfac ] [INFO ] [954a20f302a61c8 ] [j.a.m.ConfigMigrationRunner:74] [ocalhost-startStop-1] - Migrating Access Yaml Configurations to version 2
+2021-05-25T19:35:16.489Z [jfac ] [INFO ] [954a20f302a61c8 ] [.h.AccessNodeIdProviderImpl:73] [ocalhost-startStop-1] - Service id initialized: jfac@01egqnfh5wvnv30n1n33am1g5x
+2021-05-25T19:35:17.433Z [jfac ] [INFO ] [954a20f302a61c8 ] [j.a.s.s.t.TokenServiceImpl:111] [ocalhost-startStop-1] - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2021-05-25T19:35:17.948Z [jfac ] [INFO ] [954a20f302a61c8 ] [b.AccessServerBootstrapImpl:43] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2021-05-25T19:35:17.949Z [jfac ] [INFO ] [954a20f302a61c8 ] [CertificateFileHandlerBase:115] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Initializing root certificate.
+2021-05-25T19:35:18.330Z [jfac ] [INFO ] [954a20f302a61c8 ] [CertificateFileHandlerBase:328] [ocalhost-startStop-1] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2021-05-25T19:35:18.334Z [jfac ] [WARN ] [954a20f302a61c8 ] [ebServerApplicationContext:559] [ocalhost-startStop-1] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jerseyConfig' defined in URL [jar:file:/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-7.19.4.jar!/org/jfrog/access/rest/config/JerseyConfig.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.jfrog.access.rest.config.JerseyConfig]: Constructor threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'systemResource' defined in URL [jar:file:/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-server-rest-7.19.4.jar!/org/jfrog/access/server/rest/resource/system/SystemResource.class]: Unsatisfied dependency expressed through constructor parameter 4; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessServerBootstrapImpl': Invocation of init method failed; nested exception is java.lang.IllegalStateException: [ACCESS BOOTSTRAP] Failed initializing certificate.
+2021-05-25T19:35:18.367Z [jfac ] [ERROR] [954a20f302a61c8 ] [o.s.b.SpringApplication:823   ] [ocalhost-startStop-1] - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jerseyConfig' defined in URL [jar:file:/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-7.19.4.jar!/org/jfrog/access/rest/config/JerseyConfig.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.jfrog.access.rest.config.JerseyConfig]: Constructor threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'systemResource' defined in URL [jar:file:/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-server-rest-7.19.4.jar!/org/jfrog/access/server/rest/resource/system/SystemResource.class]: Unsatisfied dependency expressed through constructor parameter 4; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessServerBootstrapImpl': Invocation of init method failed; nested exception is java.lang.IllegalStateException: [ACCESS BOOTSTRAP] Failed initializing certificate.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:151)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:131)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:91)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5160)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:606)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1766)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jerseyConfig' defined in URL [jar:file:/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-7.19.4.jar!/org/jfrog/access/rest/config/JerseyConfig.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.jfrog.access.rest.config.JerseyConfig]: Constructor threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'systemResource' defined in URL [jar:file:/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-server-rest-7.19.4.jar!/org/jfrog/access/server/rest/resource/system/SystemResource.class]: Unsatisfied dependency expressed through constructor parameter 4; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessServerBootstrapImpl': Invocation of init method failed; nested exception is java.lang.IllegalStateException: [ACCESS BOOTSTRAP] Failed initializing certificate.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jerseyConfig' defined in URL [jar:file:/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-7.19.4.jar!/org/jfrog/access/rest/config/JerseyConfig.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.jfrog.access.rest.config.JerseyConfig]: Constructor threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'systemResource' defined in URL [jar:file:/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-server-rest-7.19.4.jar!/org/jfrog/access/server/rest/resource/system/SystemResource.class]: Unsatisfied dependency expressed through constructor parameter 4; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessServerBootstrapImpl': Invocation of init method failed; nested exception is java.lang.IllegalStateException: [ACCESS BOOTSTRAP] Failed initializing certificate.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:313)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 47 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.jfrog.access.rest.config.JerseyConfig]: Constructor threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'systemResource' defined in URL [jar:file:/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-server-rest-7.19.4.jar!/org/jfrog/access/server/rest/resource/system/SystemResource.class]: Unsatisfied dependency expressed through constructor parameter 4; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessServerBootstrapImpl': Invocation of init method failed; nested exception is java.lang.IllegalStateException: [ACCESS BOOTSTRAP] Failed initializing certificate.
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:217)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:309)
+	... 61 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'systemResource' defined in URL [jar:file:/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-server-rest-7.19.4.jar!/org/jfrog/access/server/rest/resource/system/SystemResource.class]: Unsatisfied dependency expressed through constructor parameter 4; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessServerBootstrapImpl': Invocation of init method failed; nested exception is java.lang.IllegalStateException: [ACCESS BOOTSTRAP] Failed initializing certificate.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansWithAnnotation(DefaultListableBeanFactory.java:673)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansWithAnnotation(AbstractApplicationContext.java:1265)
+	at org.jfrog.access.rest.config.JerseyConfig.registerAdditionalResources(JerseyConfig.java:60)
+	at org.jfrog.access.rest.config.JerseyConfig.<init>(JerseyConfig.java:38)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	... 63 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accessServerBootstrapImpl': Invocation of init method failed; nested exception is java.lang.IllegalStateException: [ACCESS BOOTSTRAP] Failed initializing certificate.
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 81 common frames omitted
+Caused by: java.lang.IllegalStateException: [ACCESS BOOTSTRAP] Failed initializing certificate.
+	at org.jfrog.access.server.service.certificate.handler.CertificateFileHandlerBase.initializeCertificate(CertificateFileHandlerBase.java:135)
+	at org.jfrog.access.server.service.certificate.CertificateServiceImpl.initCryptoFiles(CertificateServiceImpl.java:60)
+	at org.jfrog.access.server.bootstrap.AccessServerBootstrapImpl.initializeServer(AccessServerBootstrapImpl.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 94 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed validating keys permissions.
+	at org.jfrog.access.server.service.certificate.handler.CertificateFileHandlerBase.secureKeysPermissions(CertificateFileHandlerBase.java:409)
+	at org.jfrog.access.server.service.certificate.handler.CertificateFileHandlerBase.initializeCertificate(CertificateFileHandlerBase.java:125)
+	... 103 common frames omitted
+Caused by: java.nio.file.FileSystemException: /opt/jfrog/artifactory/var/etc/access/keys: Operation not permitted
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(UnixFileAttributeViews.java:254)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(UnixFileAttributeViews.java:276)
+	at java.base/java.nio.file.Files.setPosixFilePermissions(Files.java:2080)
+	at org.jfrog.security.file.SecurityFolderHelper.setPermissionsOnSecurityFolder(SecurityFolderHelper.java:304)
+	at org.jfrog.security.file.SecurityFolderHelper.setPermissionsOnSecurityFile(SecurityFolderHelper.java:332)
+	at org.jfrog.access.server.service.certificate.handler.CertificateFileHandlerBase.secureKeysPermissions(CertificateFileHandlerBase.java:405)
+	... 104 common frames omitted

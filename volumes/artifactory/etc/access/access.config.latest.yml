@@ -1,0 +1,19 @@
+---
+security:
+  password-policy:
+    length: "8"
+token:
+  revocation:
+    revocable-expiry-threshold: -1
+federation:
+  inbound:
+    service-id-mapping:
+    - from: "jfrou@*"
+      to: "jfrou@01egqnfmmavh9jhqfdex9sdpmm"
+    - from: "jfmd@*"
+      to: "jfmd@01egqnfnbcnw7kzmxycx813qb6"
+    - from: "jfrt@*"
+      to: "jfrt@01egqnftzj6k361sybwh4017ts"
+    - from: "jffe@*"
+      to: "jffe@000"
+schema-version: 2

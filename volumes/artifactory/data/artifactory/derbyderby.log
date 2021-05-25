@@ -1,0 +1,14 @@
+----------------------------------------------------------------
+Tue May 25 19:35:11 GMT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0179-a506-1af8-00000fe7f800 
+on database directory /var/opt/jfrog/artifactory/data/artifactory/derby with class loader java.net.URLClassLoader@7791a895 
+Loaded from file:/opt/jfrog/artifactory/app/artifactory/tomcat/lib/derby-10.14.2.0.jar
+java.vendor=AdoptOpenJDK
+java.runtime.version=11.0.10+9
+user.dir=/var/opt/jfrog/artifactory
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-128-generic
+derby.system.home=null
+derby.stream.error.file=/opt/jfrog/artifactory/var/data/artifactory/derbyderby.log
+Database Class Loader started - derby.database.classpath=''
